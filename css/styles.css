@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+	font-family: 'Conv_HansKendrick-Regular';
+	src: url('../fonts/HansKendrick-Regular.eot');
+	src: local('☺'), url('../fonts/HansKendrick-Regular.woff') format('woff'), url('../fonts/HansKendrick-Regular.ttf') format('truetype'), url('../fonts/HansKendrick-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+  font-family: 'Conv_HansKendrick-Regular' ;
+}
+.wrapper {
+  background: #e2e7ec;
+  padding: 90px 0 90px;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.row-column {  
+  padding: 0 10px;   
+}
+
+.main-col{
+  flex: 0 1 66.666%;
+  padding: 0 10px; 
+  margin: 0 0 25px;  
+}
+
+.main-column {  
+  background: url(../img/img_1.png) 0 0 no-repeat;  
+  padding: 400px 260px 40px 40px; 
+  max-height: 520px; 
+  box-shadow:inset 1px -200px 200px 00px #190A07;   
+} 
+  
+.main-col__date {
+  font-size: 10px;
+  color: #dbdbdb;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+.main-col__title {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.column {
+  flex: 0 1 33.333%;  
+}
+.col{
+  background:#fff; 
+  margin: 0 0 20px; 
+}
+.col-description{
+  padding: 25px;
+}
+
+.col-date{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin: 0 0 25px 0;
+  letter-spacing: 3px;
+}
+/* мій костиль, бо не знала як робити, прошу вибачення і сподіваюсь, ти мені поясниш як це робиться */
+.hidden{
+  display: block;
+  height: 16px;
+}
+
+.col-text {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 75px 0;
+}
+
+.new-content__load{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2;
+  color: #a3a3a3;
+  margin: 86px 0 0 0;
+}
+
+.new-content__load img{
+  margin: 0 15px 0 0;
+}
